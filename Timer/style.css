@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+border-radius: 20px;
+box-shadow: 2px 4px 7px 3px rgb(244, 244, 42);
+
+}
+p{
+    font-size: 6rem;
+    padding: 20px;
+    color: yellow;
+}
