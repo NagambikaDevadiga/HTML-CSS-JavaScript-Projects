@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: #fff;
+}
+body {
+  height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #3b4156;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  width: 30rem;
+  min-height: 48rem;
+  background-color: #21232e;
+  padding: 2.4rem;
+  border-radius: 20px;
+  text-align: center;
+}
+p {
+  color: #ef3271;
+  font-size: 10rem;
+}
+.button-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2.4rem;
+  margin-top: 2em;
+}
+button {
+  background-color: #fff;
+  font-size: 1.6rem;
+  border: none;
+  padding: 1rem 1.2rem;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.resetValue p {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  color: #ef3271;
+}
