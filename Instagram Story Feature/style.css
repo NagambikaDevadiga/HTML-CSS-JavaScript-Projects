@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 420px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid#000;
+}
+
+#stories{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    padding: 20px;
+}
+
+.story{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
